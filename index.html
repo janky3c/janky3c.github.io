@@ -30,6 +30,7 @@
 		.blog-post {
 			flex: 600px;
 			background: #0e0e0e;
+			margin-bottom: 20px;  /* Adds space below each blog post */
 			padding: 20px;
 			margin-right: 20px;
 			border-radius: 20px;
@@ -37,10 +38,6 @@
 		}
 
 		.sidebar {
-			flex: 1;
-			background: #0e0e0e;
-			padding: 20px;
-			border-radius: 20px;
 		}
 		footer {
 			background: #000000;
@@ -62,15 +59,24 @@
 
 		<div class="container">
 			<div class="main-content">
-				<div class="blog-post">
-					<h2>GLSL Is Hard</h2>
-					<p><small>Posted on March 31, 2025</small></p>
-					<p>Learned a bit of GLSL today, have gotten more comfortable with the shitty syntax style. I guess because this is the first one, I'll list some of the things I've done
-						1. Level Editor
-						2. UI with ImGUI
-						3. Loading and Saving the current Level
-						4. 3D Camera Movement (kinda shit tho lmao)</p>
-				</div>
+				<ul>
+					<div class="blog-post">
+						<h2>New Global Variable System!</h2>
+						<p><small>Posted on April 02, 2025</small></p>
+						<p>Gott tired of the old global system. It was messy, barely usable. I saw jdh's video where he explains one of his 3d engines, and one of his
+							points were his global system. I didn't entirely copied it, but it was very much inspired lol. I also got inspired by a lot of his work and
+							especially his new game's art style. I'm thinking making this game that same vibe, dark, cozy, or whatever.</p>
+					</div>
+					<div class="blog-post">
+						<h2>GLSL Is Hard</h2>
+						<p><small>Posted on March 31, 2025</small></p>
+						<p>Learned a bit of GLSL today, have gotten more comfortable with the shitty syntax style. I guess because this is the first one, I'll list some of the things I've done
+							1. Level Editor
+							2. UI with ImGUI
+							3. Loading and Saving the current Level
+							4. 3D Camera Movement (kinda shit tho lmao)</p>
+					</div>
+				</ul>
 
 				<div class="sidebar">
 					<h3>Links</h3>
