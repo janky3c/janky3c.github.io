@@ -1,85 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Blog</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        .container {
-            width: 80%;
-            margin: auto;
-            overflow: hidden;
-        }
-        header {
-            background: #333;
-            color: #fff;
-            padding: 20px;
-            text-align: center;
-        }
-        .main-content {
-            display: flex;
-            margin-top: 20px;
-        }
-        .blog-post {
-            flex: 2;
-            background: #fff;
-            padding: 20px;
-            margin-right: 20px;
-            border-radius: 8px;
-        }
-        .sidebar {
-            flex: 1;
-            background: #fff;
-            padding: 20px;
-            border-radius: 8px;
-        }
-        footer {
-            background: #333;
-            color: #fff;
-            text-align: center;
-            padding: 10px;
-            margin-top: 20px;
-        }
-    </style>
-</head>
-<body>
-    <header>
-        <h1>Janky 3D Creation Blog Posts</h1>
-    </header>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>My Blog</title>
+		<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			background-color: #f4f4f4;
+			background: #000000;
+		}
+		.container {
+			width: 80%;
+			margin: auto;
+			overflow: hidden;
+		}
+		header {
+			background: #000000;
+			color: #fff;
+			padding: 20px;
+			text-align: center;
+		}
+		.main-content {
+			display: flex;
+			margin-top: 20px;
+		}
+		.blog-post {
+			flex: 600px;
+			background: #0e0e0e;
+			padding: 20px;
+			margin-right: 20px;
+			border-radius: 20px;
+			height: fit-content;
+		}
 
-    <div class="container">
-        <div class="main-content">
-            <div class="blog-post">
-                <h2>Blog Title</h2>
-                <p><small>Posted on March 31, 2025</small></p>
-                <p>Learned a bit of GLSL today, have gotten more comfortable with the shitty syntax style. I guess because this is the first one, I'll list some of the things I've done
-					1. Level Editor
-					2. UI with ImGUI
-					3. Loading and Saving the current Level
-					4. 3D Camera Movement (kinda shit tho lmao)</p>
-            </div>
+		.sidebar {
+			flex: 1;
+			background: #0e0e0e;
+			padding: 20px;
+			border-radius: 20px;
+		}
+		footer {
+			background: #000000;
+			color: #a1a1a1;
+			text-align: center;
+			padding: 10px;
+			margin-top: 20px;
+		}
+		.bigass {
+			font-color = #310449
+		}
+		</style>
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<h1 class="bigass">Janky 3D Creation Blog Posts</h1>
+		</header>
 
-            <div class="sidebar">
-                <h3>Categories</h3>
-                <ul>
-                    <li>Technology</li>
-                    <li>Lifestyle</li>
-                    <li>Travel</li>
-                    <li>Food</li>
-                </ul>
-            </div>
-        </div>
-    </div>
+		<div class="container">
+			<div class="main-content">
+				<div class="blog-post">
+					<h2>GLSL Is Hard</h2>
+					<p><small>Posted on March 31, 2025</small></p>
+					<p>Learned a bit of GLSL today, have gotten more comfortable with the shitty syntax style. I guess because this is the first one, I'll list some of the things I've done
+						1. Level Editor
+						2. UI with ImGUI
+						3. Loading and Saving the current Level
+						4. 3D Camera Movement (kinda shit tho lmao)</p>
+				</div>
 
-    <footer>
-        <p>&copy; 2025 My Blog. All rights reserved.</p>
-    </footer>
-</body>
+				<div class="sidebar">
+					<h3>Links</h3>
+					<ul>
+						<li>
+							<a href="https://janky3c.github.io/" target="_blank">Website!</a>
+						</li>
+
+						<li>
+							<a href="https://github.com/kroussekax/test" target="_blank">Github Page!</a>
+						</li>
+
+						<li>
+							<a href="https://janky3c.github.io/nodc.html" target="_blank">Discord!</a>
+						</li>
+
+						<li>
+							<a href="https://janky3c.github.io/flower" target="_blank">really cool flower animation i stole.</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<footer>
+			<p>&copy; 2025 My Blog. All rights reserved.</p>
+		</footer>
+	</body>
 </html>
 
