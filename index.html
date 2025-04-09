@@ -3,14 +3,17 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>My Blog</title>
+		<title>Janky 3D Creation</title>
 		<style>
+		/*
+		:)
+		*/
 		body {
 			font-family: Arial, sans-serif;
 			margin: 0;
 			padding: 0;
-			background-color: #f4f4f4;
 			background: #000000;
+			color: #ffffff;
 		}
 		.container {
 			width: 80%;
@@ -19,35 +22,54 @@
 		}
 		header {
 			background: #000000;
-			color: #fff;
+			color: #ffffff;
 			padding: 20px;
 			text-align: center;
+			border-top: 2px solid #ff69b4;
+		}
+		nav {
+			background: #0e0e0e;
+			padding: 10px 0;
+		}
+		nav ul {
+			display: flex;
+			justify-content: center;
+			gap: 20px;
+			margin: 0;
 		}
 		.main-content {
 			display: flex;
 			margin-top: 20px;
+			gap: 20px;
 		}
 		.blog-post {
-			flex: 600px;
-			background: #0e0e0e;
-			margin-bottom: 20px;  /* Adds space below each blog post */
+			flex: 2;
+			background: #1a1a1a;
+			margin-bottom: 20px;
 			padding: 20px;
-			margin-right: 20px;
 			border-radius: 20px;
-			height: fit-content;
-		}
-
-		.sidebar {
+			box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
 		}
 		footer {
 			background: #000000;
-			color: #a1a1a1;
+			color: #ffffff;
 			text-align: center;
 			padding: 10px;
 			margin-top: 20px;
 		}
 		.bigass {
-			font-color = #310449
+			color: #ffffff;
+		}
+		a {
+			color: #ff69b4;
+			text-decoration: none;
+		}
+		a:hover {
+			color: #ff1493;
+		}
+		ul {
+			list-style: none;
+			padding: 0;
 		}
 		</style>
 	</head>
@@ -55,11 +77,20 @@
 		<header>
 			<div class="container">
 				<h1 class="bigass">Janky 3D Creation</h1>
+			</div>
 		</header>
+
+		<nav>
+			<ul>
+				<li><a href="https://github.com/kroussekax/test" target="_blank">Github></li>
+				<li><a href="https://janky3c.github.io/nodc.html" target="_blank">Discord</a></li>
+				<li><a href="https://janky3c.github.io/flower" target="_blank">Flowers</a></li>
+			</ul>
+		</nav>
 
 		<div class="container">
 			<div class="main-content">
-				<ul>
+				<div>
 					<div class="blog-post">
 						<h2>New Global Variable System!</h2>
 						<p><small>Posted on April 02, 2025</small></p>
@@ -76,34 +107,13 @@
 							3. Loading and Saving the current Level
 							4. 3D Camera Movement (kinda shit tho lmao)</p>
 					</div>
-				</ul>
-
-				<div class="sidebar">
-					<h3>Links</h3>
-					<ul>
-						<li>
-							<a href="https://janky3c.github.io/" target="_blank">Website!</a>
-						</li>
-
-						<li>
-							<a href="https://github.com/kroussekax/test" target="_blank">Github Page!</a>
-						</li>
-
-						<li>
-							<a href="https://janky3c.github.io/nodc.html" target="_blank">Discord!</a>
-						</li>
-
-						<li>
-							<a href="https://janky3c.github.io/flower" target="_blank">really cool flower animation i stole.</a>
-						</li>
-					</ul>
 				</div>
 			</div>
 		</div>
 
 		<footer>
-			<p>&copy; 2025 My Blog. All rights reserved.</p>
+			<p>Â© 2025 My Blog. All rights reserved.</p>
+			<p>Thx xthedev for css :)</p>
 		</footer>
 	</body>
 </html>
-
